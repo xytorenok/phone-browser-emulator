@@ -29,6 +29,7 @@ body {
   width: 28%;
   position: relative;
   transform: scale(0.8);
+  transition: all 300ms ease-in-out;
 }
 
 #phonePict {}
