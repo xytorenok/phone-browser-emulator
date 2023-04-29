@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+<link rel="manifest" href="img/fav/site.webmanifest">
+<link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <div class="phone-rotate"  id="phoneRotate">
+  <div class="phone" id="phone">
+    <img src="img/pixel.svg" id="phonePict">
+    <div class="screen">
+      <div class="interface-top">
+        <div class="browser">
+          <div class="info-bar">
+            <p class="time" id="time">15:00</p>
+            <div class="info-bar-block-icons">
+              <div class="info-bar-icons ibi-wifi">
+                <img src="img/info-bar-wifi.svg" alt="">
+              </div>
+              <div class="info-bar-icons ibi-signal">
+                <img src="img/info-bar-signal.svg" alt="">
+              </div>
+              <div class="info-bar-icons ibi-batery">
+                <img src="img/info-bar-battery.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="link-bar">
+            <div class="link-bar-home">
+              <img src="img/link-bar-home.svg" alt="">
+            </div>
+            <div class="link-bar-wrapper">
+              <div class="link-bar-wrapper-lock">
+                <img src="img/link-bar-lock.svg" alt="">
+              </div>
+              <form action="javascript:">
+                <input type="text" class="link-bar-wrapper-text" id="linkBar" value="google.com">
+              </form>
+            </div>
+            <div class="link-bar-tab" style="display: none;">
+              <img src="img/link-bar-tab-empty.svg" alt="">
+              <div class="link-bar-tab-block">
+                <p class="link-bar-tab-text">1</p>
+              </div>
+            </div>
+            <div class="link-bar-burger">
+              <img src="img/link-bar-burger.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <iframe src="https://pogodairadar.com.ua" id="site" frameborder="0" scrolling="yes"
+          allowfullscreen="true"></iframe>
+      </div>
+      <div class="interface-bottom">
+        <div class="interface-bottom-buttons">
+          <img src="img/bar-bottom-prev.png" alt="">
+          <img src="img/bar-bottom-circle.png" alt="">
+          <img src="img/bar-bottom-square.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="information-block">
+    <p class="inf-title">Copy the address into the address bar</p>
+    <div class="information-block-wrapper">
+      <div class="inf-block-left">
+        <p class="inf-subtitle">click to copy</p>
+        <ul id="list">
+          <li>gismeteo.ua</li>
+          <li>meteopost.com</li>
+          <li>pogodnik.com</li>
+          <li>meteoprog.com</li>
+          <li>pogoda33.ua</li>
+          <li>pogodairadar.com.ua</li>
+          <li>accuweather.com</li>
+        </ul>
+      </div>
+      <div class="inf-block-right">
+        <p class="inf-subtitle">click to move</p>
+        <p>scale</p>
+        <div class="scale-wrap">
+        <button id="scaleMinus">-</button>
+        <button id="scalePlus">+</button>
+      </div>
+        <p>rotate</p>
+        <div class="rotate-wrap">
+        <button id="rotateToRight"><img src="img/arrow-r.png" alt=""></button>
+        <button id="rotateToLeft"><img src="img/arrow-l.png" alt=""></button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
