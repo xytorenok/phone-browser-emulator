@@ -33,13 +33,14 @@ rotateToRight.onclick = turnRight
 rotateToLeft.onclick = turnLeft
 
 function cleanLinkBar() {
-  linkBar.value = ''
+  //linkBar.value = ''
  // site.src = `https://${link}`
+link = linkBar.value
   showLink()
 }
 
 function showLink() {
-site.src =  `https://${linkBar.value}`
+site.src =  `https://${link}`
  // linkBar.value = site.src.substring(8);
 }
 
