@@ -46,13 +46,22 @@ body {
 .content {
   overflow: hidden;
   height: 508px;
+  position: relative;
 }
 
 .content iframe {
-  width: calc(100% + 17px);
-  height: 100%;
+  width: calc(200% + 17px);
+  height: 200%;
+  position: absolute;
+  top: -254px;
+  left: -160px;
+  transform: scale(0.5);
 }
 
+/* .content iframe {
+  width: calc(100% + 17px);
+  height: 100%;
+} */
 
 .browser {
   display: flex;

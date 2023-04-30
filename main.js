@@ -1,4 +1,4 @@
-let link
+let link = 'pogodairadar.com.ua'
 let scale = getComputedStyle(phone).getPropertyValue("transform").match(/^matrix\(([^\(]*)\)$/)[1].split(',').map(Number)[0]
 let rotate = 0
 
