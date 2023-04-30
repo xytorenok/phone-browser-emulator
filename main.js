@@ -43,7 +43,7 @@ site.src =  `https://${linkBar.value}`
  // linkBar.value = site.src.substring(8);
 }
 
-functi on clickToCopy(e) {
+function clickToCopy(e) {
   link = e.target.innerHTML
   navigator.clipboard.writeText(e.target.innerHTML)
 }
