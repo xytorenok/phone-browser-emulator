@@ -34,16 +34,16 @@ rotateToLeft.onclick = turnLeft
 
 function cleanLinkBar() {
   linkBar.value = ''
-  site.src = `https://${link}`
+ // site.src = `https://${link}`
   showLink()
 }
 
 function showLink() {
-linkBar.value = linkBar.value
+site.src =  `https://${linkBar.value}`
  // linkBar.value = site.src.substring(8);
 }
 
-function clickToCopy(e) {
+functi on clickToCopy(e) {
   link = e.target.innerHTML
   navigator.clipboard.writeText(e.target.innerHTML)
 }
