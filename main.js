@@ -39,7 +39,8 @@ function cleanLinkBar() {
 }
 
 function showLink() {
-  linkBar.value = site.src.substring(8);
+linkBar.value = linkBar.value
+ // linkBar.value = site.src.substring(8);
 }
 
 function clickToCopy(e) {
