@@ -25,7 +25,7 @@ function updateClock() {
 
 showLink()
 
-linkBar.onclick = cleanLinkBar
+linkBar.onchange = cleanLinkBar
 list.onclick = clickToCopy
 scaleMinus.onclick = zoomOut
 scalePlus.onclick = ZoomIn
